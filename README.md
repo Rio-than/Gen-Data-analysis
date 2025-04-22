@@ -1,12 +1,12 @@
 # Gen-Data-analysis
-Lung Cancer Trends & Outcomes Dashboard
+###Lung Cancer Trends & Outcomes Dashboard
 
 Version: 1.0
 Last Updated: April 22, 2025
 Author: [Your Name]
 License: MIT
 
-  Overview
+  #Overview
 This interactive dashboard provides a comprehensive analysis of lung cancer trends and outcomes, focusing on:
 
 Average Survival Years Post-Diagnosis: 5.50 years
