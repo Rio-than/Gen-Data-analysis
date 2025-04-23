@@ -92,13 +92,17 @@ _________________________________________
 6	| Report writing and packaging	| Not Started
 ## Data Source 
 I used Lung Cancer Risk  from 25 Countries dataset from Kaggle by Aiza Zeeshan.
+
 I used global data because  Kenya Cancer centers  lacks comprehensive cancer registries. Global datasets help fill critical gaps in epidemiological insights.
+
 Less cleaning was needed ,the dataset had no blank spaces and the population size was divided by a million to consistency in Scale for Visualization.
 
 
 ## Data Storage
 CSV files for raw patient records.
+
 SQL database for country-level metrics.
+
 Tableau for interactive dashboards.
 
 
@@ -124,7 +128,7 @@ Region: Western Kenya
 
 Expected Output:
 
-Average survival years: 5.5
+Average survival years: 5 years & 6  months
 
 Early detection rate: 28%
 
