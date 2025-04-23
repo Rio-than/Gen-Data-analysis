@@ -23,6 +23,7 @@ Global health funders and donors
 
 ## Technical Details
 Excel 2021 version
+
 Tableau 2025.1
 
 ## Core Concepts Used:
@@ -50,21 +51,25 @@ Database: SQL (SQLite or MySQL)
 ### Core Features
 1. Health Indicators Dashboard and Stratified Metrics
 Calculates average survival years, early detection rate, and diagnosis stage.
+
 Stratifies data by gender, age, stage, smoking status, and region.
 
-2. Comparison with Global Benchmarks
+3. Comparison with Global Benchmarks
 Uses GLOBOCAN (**Global Cancer Observatory**) , SEER (**Surveillance, Epidemiology, and End Results**), and peer-reviewed studies to compare national and local metrics.
 
-3. Risk Stratification and Screening Gap Analysis
+4. Risk Stratification and Screening Gap Analysis
 Highlights differences in detection and diagnosis by smoking status and age group.
+
 Shows missed screening opportunities in high-risk groups (e.g., smokers aged 65–70).
 
-4. Treatment Pattern Analysis
+6. Treatment Pattern Analysis
 Compares gender differences in treatment modalities (surgery vs. radiotherapy).
+
 Maps treatment choices across stages and regions.
 
-5. Regional Burden Mapping
+8. Regional Burden Mapping
 Identifies hotspots like Ethiopia and South Asia as highest-burden areas.
+
 Offers insights for targeted interventions in similar regions like western Kenya.
 
 ## User Interface
@@ -75,10 +80,15 @@ Tableau dashboards provide a visual front-end for all stakeholders .
 Day	Programming Tasks	Status
 _________________________________________
 1 |	Data collection and cleaning | Done
+
 2 |	SQL query development |	Done
+
 3 |	Health Indicators calculation |	Done
+
 4	| Benchmark integration |	Done
+
 5	| Tableau dashboard creation |	In Progress
+
 6	| Report writing and packaging	| Not Started
 ## Data Source 
 This data has been sourced from Kaggle 
