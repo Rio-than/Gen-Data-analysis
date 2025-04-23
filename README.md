@@ -5,6 +5,7 @@ This project is a Python-based analytical tool that processes combined individua
 
 ## Problem Statement
 What problem will your Python project solve?
+
 AMPATH, **(Academic Model Providing Access to Healthcare;it is a partnership between Moi University and Moi Teaching and Referral Hospital in Kenya and a consortium of North American academic health centers, led by Indiana University. AMPATH aims to deliver comprehensive healthcare services, conduct research, and provide training and capacity building, particularly in HIV/AIDS and chronic disease management across western Kenya.)** and similar health networks in Kenya face major challenges with late-stage lung cancer detection, lack of screening programs, poor data coordination, and unequal resource access. This project uses global benchmarking and granular and non-granular data analysis to identify gaps in early diagnosis and treatment and provides actionable insights to bridge them.
 
 ## Why is this solution needed?
