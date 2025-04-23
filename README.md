@@ -1,11 +1,11 @@
 # Lung Cancer Data Analysis and Screening Insights Tool
 
 ## Project Summary
-This project is a Python-based analytical tool that processes combined individual- and country-level lung cancer data. It uses tools like Excel, SQL, and Tableau to calculate key performance indicators (KPIs) such as survival years, diagnosis rates, detection stages, and treatment trends. The project highlights disparities in diagnosis and survival based on gender, age, region, and smoking status. The tool aims to support cancer care programs—especially in regions like western Kenya—by offering data-driven recommendations for early detection, targeted screening, and resource allocation.
+This project is a Python-based analytical tool that processes combined individual- and country-level lung cancer data. It uses tools like Excel, SQL, and Tableau to calculate health indicators such as survival years, diagnosis rates, detection stages, and treatment trends. The project highlights disparities in diagnosis and survival based on gender, age, region, and smoking status. The tool aims to support cancer care programs—especially in regions like western Kenya—by offering data-driven recommendations for early detection, targeted screening, and resource allocation.
 
 ## Problem Statement
 What problem will your Python project solve?
-AMPATH and similar health networks in Kenya face major challenges with late-stage lung cancer detection, lack of screening programs, poor data coordination, and unequal resource access. This project uses global benchmarking and granular data analysis to identify gaps in early diagnosis and treatment and provides actionable insights to bridge them.
+AMPATH ** (Academic Model Providing Access to Healthcare;it is a partnership between Moi University and Moi Teaching and Referral Hospital in Kenya and a consortium of North American academic health centers, led by Indiana University. AMPATH aims to deliver comprehensive healthcare services, conduct research, and provide training and capacity building, particularly in HIV/AIDS and chronic disease management across western Kenya.) ** and similar health networks in Kenya face major challenges with late-stage lung cancer detection, lack of screening programs, poor data coordination, and unequal resource access. This project uses global benchmarking and granular data analysis to identify gaps in early diagnosis and treatment and provides actionable insights to bridge them.
 
 ## Why is this solution needed?
 Supports AMPATH in building data-driven cancer registries.
