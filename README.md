@@ -1,181 +1,188 @@
-# Lung Cancer Trends & Outcomes Dashboard
+Project Title
+Lung Cancer Data Analysis and Screening Insights Tool
 
+Project Summary
+This project is a Python-based analytical tool that processes combined individual- and country-level lung cancer data. It uses tools like Excel, SQL, and Tableau to calculate key performance indicators (KPIs) such as survival years, diagnosis rates, detection stages, and treatment trends. The project highlights disparities in diagnosis and survival based on gender, age, region, and smoking status. The tool aims to support cancer care programs—especially in regions like western Kenya—by offering data-driven recommendations for early detection, targeted screening, and resource allocation.
 
-Author: Nathan Rotich
+Problem Statement
+What problem will your Python project solve?
+AMPATH and similar health networks in Kenya face major challenges with late-stage lung cancer detection, lack of screening programs, poor data coordination, and unequal resource access. This project uses global benchmarking and granular data analysis to identify gaps in early diagnosis and treatment and provides actionable insights to bridge them.
 
+Why is this solution needed?
+Supports AMPATH in building data-driven cancer registries.
 
-  ## Overview
-This interactive dashboard provides a comprehensive analysis of lung cancer trends and outcomes, focusing on:
+Helps health facilities identify high-risk populations for screening.
 
-Average Survival Years Post-Diagnosis: 5.50 years
+Enables policymakers and donors to visualize gaps in early-stage detection and survival.
 
-Lung Cancer Diagnosis Rate: 4.06%
+Encourages informed decision-making based on real patient and regional data.
 
-Early Detection Rate: 28.37%
+Promotes better resource deployment in underserved areas like rural western Kenya.
 
-Gender Distribution: 50.06% male, 49.04% female
+Who will use this program?
+Public health researchers and analysts
 
-## Stage-wise Diagnosis Differences:
+Cancer care program managers (e.g., AMPATH)
 
-Stage 2: -0.73%
+Oncologists and radiologists
 
-Stage 3: -4.37%
+Policy-makers in health ministries
 
-Stage 4: +15.55%
+Global health funders and donors
 
-Smoking Population Insights:
+Technical Details
+Python Components
+Python Version:
+Python 3.13
 
-Higher diagnosis rates among a smaller smoker population compared to non-smokers
+Core Concepts Used:
 
-Age group 65-70 has the highest number of smokers; 85-90 has the lowest
+Classes and Objects
 
-Treatment Modalities by Gender:
+Conditional Statements and Loops
 
-Men: Surgery > Radiotherapy > Chemotherapy
+File handling and data parsing
 
-Women: Radiotherapy > Surgery > Chemotherapy
+Basic statistical operations
 
-## Geographical Prevalence:
+Data visualization using Tableau (external)
 
-Country with Highest Prevalence: Ethiopia
+Integration with SQL queries
 
-Region with Highest Prevalence: South Asia
+Basic Python Libraries
+pandas for data analysis
 
- ## Table of Contents
-Project Description
+matplotlib or seaborn for optional plotting
 
-Target Audience
+csv, json for file parsing
 
-Key Performance Indicators (KPIs)
+sqlite3 or similar for querying structured data
 
-Data Sources
+Development Tools
+Editor: VS Code
 
-Installation & Setup
+Version Control: Git/GitHub
 
-Usage
+Visualization: Tableau
 
-Contributing
+Database: SQL (SQLite or MySQL)
 
-License
+Program Structure
+Core Features
+1. KPI Dashboard and Stratified Metrics
+Calculates average survival years, early detection rate, and diagnosis stage.
 
-## Acknowledgements
+Stratifies data by gender, age, stage, smoking status, and region.
 
-  ### Project Description
-The Lung Cancer Trends & Outcomes Dashboard aims to visualize critical metrics and trends in lung cancer diagnosis, treatment, and survival. By leveraging data analytics and visualization tools, the dashboard provides stakeholders with actionable insights to inform policy decisions, research directions, and clinical practices.
+2. Comparison with Global Benchmarks
+Uses GLOBOCAN, SEER, and peer-reviewed studies to compare national and local metrics.
 
-  ### Target Audience
-This dashboard is designed for:
+3. Risk Stratification and Screening Gap Analysis
+Highlights differences in detection and diagnosis by smoking status and age group.
 
-Healthcare Professionals: To monitor patient outcomes, identify high-risk groups, and tailor treatment strategies.
+Shows missed screening opportunities in high-risk groups (e.g., smokers aged 65–70).
 
-Clinical Researchers: To analyze trends, evaluate interventions, and identify areas for further study.
+4. Treatment Pattern Analysis
+Compares gender differences in treatment modalities (surgery vs. radiotherapy).
 
-Policymakers: To inform public health policies, allocate resources effectively, and implement targeted screening programs.
+Maps treatment choices across stages and regions.
 
-Public Health Educators: To develop awareness campaigns and educational materials based on current data.
+5. Regional Burden Mapping
+Identifies hotspots like Ethiopia and South Asia as highest-burden areas.
 
-General Public: To increase awareness and understanding of lung cancer trends and risk factors.
+Offers insights for targeted interventions in similar regions like western Kenya.
 
-  Key Performance Indicators (KPIs)
+User Interface
+This is a non-GUI tool focused on backend data analysis. However:
 
-## KPI	Value	Description
-Average Survival Years Post-Diagnosis	5.50 years	Indicates the mean survival duration after a lung cancer diagnosis.
-Lung Cancer Diagnosis Rate	4.06%	Represents the percentage of the population diagnosed with lung cancer.
-Early Detection Rate	28.37%	Percentage of lung cancer cases detected at an early stage.
-Gender Distribution	50.06% M / 49.04% F	Shows the proportion of lung cancer cases by gender.
-Stage-wise Diagnosis Differences	Stage 2: -0.73%, Stage 3: -4.37%, Stage 4: +15.55%	Highlights the percentage change in diagnoses across different stages.
-Smoking Population Insights	Higher diagnosis rates among smokers despite being a smaller population	Emphasizes the impact of smoking on lung cancer prevalence.
-Treatment Modalities by Gender	Men: Surgery > Radiotherapy > Chemotherapy; Women: Radiotherapy > Surgery > Chemotherapy	Details preferred treatment methods by gender.
-Geographical Prevalence	Ethiopia (Country), South Asia (Region)	Identifies areas with the highest lung cancer prevalence.
-  ## Data Sources
-The dashboard utilizes data from reputable sources, including:
+Tableau dashboards provide a visual front-end for stakeholders.
 
-World Health Organization (WHO)
+The tool can be extended with a Tkinter or Streamlit interface for local clinical use.
 
-Global Cancer Observatory (GLOBOCAN)
+Project Timeline
 
-National Cancer Institute (NCI)
+Day	Programming Tasks	Status
+1	Data collection and cleaning	Done
+2	SQL query development	Done
+3	KPI calculation	Done
+4	Benchmark integration	Done
+5	Tableau dashboard creation	In Progress
+6	Report writing and packaging	Not Started
+Program Design
+Functions and Classes Overview
+LungCancerAnalytics: A class that processes survival and diagnosis data.
 
-Kenya National Bureau of Statistics (KNBS)
+compare_with_benchmark(): Function to compare regional data against global figures.
 
-Note: Ensure to replace or supplement these with the actual data sources used in your analysis.
+generate_recommendations(): Suggests policy or clinical actions based on findings.
 
-  ## Installation & Setup
-To set up the dashboard locally:
+Data Storage
+CSV files for raw patient records.
 
-Clone the Repository:
+SQL database for country-level metrics.
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/lung-cancer-dashboard.git
-Navigate to the Project Directory:
+Tableau for interactive dashboards.
 
-bash
-Copy
-Edit
-cd lung-cancer-dashboard
-Install Dependencies:
+Error Handling
+Handles missing or malformed demographic or clinical entries.
 
-bash
-Copy
-Edit
-npm install
-Start the Development Server:
+Displays warnings for incomplete benchmarks or mismatched dimensions.
 
-bash
-Copy
-Edit
-npm start
-Ensure you have Node.js and npm installed on your machine.
+Testing Strategy
+Unit Testing:
+Verify correct diagnosis rate and survival year calculations.
 
- ## Usage
-After setting up:
+Ensure proper functioning of filtering by gender, stage, and region.
 
-Access the dashboard at http://localhost:3000 in your web browser.
+User Testing:
+Use test cohorts from AMPATH data to simulate regional and demographic outputs.
 
-Navigate through different sections to explore various metrics and visualizations.
+Review outputs with domain experts for clinical relevance.
 
-Utilize filters and interactive elements to customize the data view.
-
-  ## Contributing
-Contributions are welcome! To contribute:
-
-Fork the Repository
-
-Create a New Branch:
+Project Delivery
+Running the Program
+Install Python 3.13, clone the repository, and run:
 
 bash
 Copy
 Edit
-git checkout -b feature/your-feature-name
-Commit Your Changes:
+python lung_cancer_analytics.py
+Sample Usage
+Input Scenario:
 
-bash
-Copy
-Edit
-git commit -m "Add your message here"
-Push to the Branch:
+Smoking status: Ever-smoker
 
-bash
-Copy
-Edit
-git push origin feature/your-feature-name
-Open a Pull Request
+Age: 68
 
-Please ensure your code adheres to the project's coding standards and includes relevant tests.
+Region: Western Kenya
 
-  ## License
-This project is licensed under the MIT License.
+Expected Output:
 
- ## Acknowledgements
-We extend our gratitude to the organizations and individuals who provided data and support:
+Average survival years: 5.5
 
-World Health Organization (WHO)
+Early detection rate: 28%
 
-Global Cancer Observatory (GLOBOCAN)
+Stage IV excess: +15.5%
 
-National Cancer Institute (NCI)
+Recommendation: Expand LDCT screening and launch smoking cessation campaigns.
 
-Kenya National Bureau of Statistics (KNBS)
+Potential Challenges
+
+Challenge	Solution
+Fragmented data sources	Integrate datasets via a unified SQL schema
+Missing regional health data	Collaborate with AMPATH for local records
+Complex visualizations in Tableau	Create simplified views for non-technical users
+Limited stakeholder awareness	Integrate insights into AMPATH Oncology ECHO
+Future Improvements
+Real-Time Registry: Integrate with OpenMRS for live data updates.
+
+Mobile Dashboards: Convert visual outputs into mobile/tablet formats.
+
+Policy Toolkit: Auto-generate reports for counties and ministries.
+
+Predictive Modeling: Add machine learning to forecast case trends.
+
+Global Integration: Compare trends across Sub-Saharan countries.
+
+
 
