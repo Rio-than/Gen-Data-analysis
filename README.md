@@ -4,7 +4,7 @@
 Author: Nathan Rotich
 
 
-  # Overview
+  ## Overview
 This interactive dashboard provides a comprehensive analysis of lung cancer trends and outcomes, focusing on:
 
 Average Survival Years Post-Diagnosis: 5.50 years
@@ -15,7 +15,7 @@ Early Detection Rate: 28.37%
 
 Gender Distribution: 50.06% male, 49.04% female
 
-# Stage-wise Diagnosis Differences:
+## Stage-wise Diagnosis Differences:
 
 Stage 2: -0.73%
 
