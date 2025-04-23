@@ -91,33 +91,29 @@ _________________________________________
 
 6	| Report writing and packaging	| Not Started
 ## Data Source 
-This data has been sourced from Kaggle 
+I used Lung Cancer Risk  from 25 Countries dataset from Kaggle by Aiza Zeeshan.
+I used global data because  Kenya Cancer centers  lacks comprehensive cancer registries. Global datasets help fill critical gaps in epidemiological insights.
+Less cleaning was needed ,the dataset had no blank spaces and the population size was divided by a million to consistency in Scale for Visualization.
+
+
 ## Data Storage
 CSV files for raw patient records.
 SQL database for country-level metrics.
 Tableau for interactive dashboards.
 
 
-Testing Strategy
+### Testing Strategy
 Unit Testing:
 Verify correct diagnosis rate and survival year calculations.
 
 Ensure proper functioning of filtering by gender, stage, and region.
 
-User Testing:
+### User Testing:
 Use test cohorts from AMPATH data to simulate regional and demographic outputs.
 
 Review outputs with domain experts for clinical relevance.
 
-Project Delivery
-Running the Program
-Install Python 3.13, clone the repository, and run:
-
-bash
-Copy
-Edit
-python lung_cancer_analytics.py
-Sample Usage
+## Sample Usage
 Input Scenario:
 
 Smoking status: Ever-smoker
@@ -134,16 +130,21 @@ Early detection rate: 28%
 
 Stage IV excess: +15.5%
 
-Recommendation: Expand LDCT screening and launch smoking cessation campaigns.
+## Recommendation:
+Expand LDCT screening and launch smoking cessation campaigns.
 
 Potential Challenges
 
 ## Challenge	Solution
 Fragmented data sources	Integrate datasets via a unified SQL schema
+
 Missing regional health data	Collaborate with AMPATH for local records
+
 Complex visualizations in Tableau	Create simplified views for non-technical users
+
 Limited stakeholder awareness	Integrate insights into AMPATH Oncology ECHO
-Future Improvements
+
+## Future Improvements
 Real-Time Registry: Integrate with OpenMRS for live data updates.
 
 Mobile Dashboards: Convert visual outputs into mobile/tablet formats.
