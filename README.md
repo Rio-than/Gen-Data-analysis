@@ -5,34 +5,24 @@ This project is a Python-based analytical tool that processes combined individua
 
 ## Problem Statement
 What problem will your Python project solve?
-AMPATH ** (Academic Model Providing Access to Healthcare;it is a partnership between Moi University and Moi Teaching and Referral Hospital in Kenya and a consortium of North American academic health centers, led by Indiana University. AMPATH aims to deliver comprehensive healthcare services, conduct research, and provide training and capacity building, particularly in HIV/AIDS and chronic disease management across western Kenya.) ** and similar health networks in Kenya face major challenges with late-stage lung cancer detection, lack of screening programs, poor data coordination, and unequal resource access. This project uses global benchmarking and granular data analysis to identify gaps in early diagnosis and treatment and provides actionable insights to bridge them.
+AMPATH, **(Academic Model Providing Access to Healthcare;it is a partnership between Moi University and Moi Teaching and Referral Hospital in Kenya and a consortium of North American academic health centers, led by Indiana University. AMPATH aims to deliver comprehensive healthcare services, conduct research, and provide training and capacity building, particularly in HIV/AIDS and chronic disease management across western Kenya.)** and similar health networks in Kenya face major challenges with late-stage lung cancer detection, lack of screening programs, poor data coordination, and unequal resource access. This project uses global benchmarking and granular and non-granular data analysis to identify gaps in early diagnosis and treatment and provides actionable insights to bridge them.
 
 ## Why is this solution needed?
 Supports AMPATH in building data-driven cancer registries.
-
 Helps health facilities identify high-risk populations for screening.
-
 Enables policymakers and donors to visualize gaps in early-stage detection and survival.
-
-Encourages informed decision-making based on real patient and regional data.
-
 Promotes better resource deployment in underserved areas like rural western Kenya.
 
 ## Who will use this program?
 Public health researchers and analysts
-
 Cancer care program managers (e.g., AMPATH)
-
 Oncologists and radiologists
-
 Policy-makers in health ministries
-
 Global health funders and donors
 
 ## Technical Details
-Python Components
-Python Version:
-Python 3.13
+Excel 2021 version
+Tableau 2025.1
 
 ## Core Concepts Used:
 
@@ -44,16 +34,9 @@ Data visualization using Tableau (external)
 
 Integration with SQL queries
 
-Basic Python Libraries
-pandas for data analysis
-
-matplotlib or seaborn for optional plotting
-
 csv, json for file parsing
 
-sqlite3 or similar for querying structured data
-
-Development Tools
+### Development Tools
 Editor: VS Code
 
 Version Control: Git/GitHub
@@ -64,54 +47,43 @@ Database: SQL (SQLite or MySQL)
 
 ## Program Structure
 ### Core Features
-1. KPI Dashboard and Stratified Metrics
+1. Health Indicators Dashboard and Stratified Metrics
 Calculates average survival years, early detection rate, and diagnosis stage.
-
 Stratifies data by gender, age, stage, smoking status, and region.
 
 2. Comparison with Global Benchmarks
-Uses GLOBOCAN, SEER, and peer-reviewed studies to compare national and local metrics.
+Uses GLOBOCAN (**Global Cancer Observatory**) , SEER (**Surveillance, Epidemiology, and End Results**), and peer-reviewed studies to compare national and local metrics.
 
 3. Risk Stratification and Screening Gap Analysis
 Highlights differences in detection and diagnosis by smoking status and age group.
-
 Shows missed screening opportunities in high-risk groups (e.g., smokers aged 65–70).
 
 4. Treatment Pattern Analysis
 Compares gender differences in treatment modalities (surgery vs. radiotherapy).
-
 Maps treatment choices across stages and regions.
 
 5. Regional Burden Mapping
 Identifies hotspots like Ethiopia and South Asia as highest-burden areas.
-
 Offers insights for targeted interventions in similar regions like western Kenya.
 
 ## User Interface
-This is a non-GUI tool focused on backend data analysis. However:
-
-Tableau dashboards provide a visual front-end for stakeholders.
-
-The tool can be extended with a Tkinter or Streamlit interface for local clinical use.
-
+This is a non-GUI project only  focused on backend data analysis.
+However:
+Tableau dashboards provide a visual front-end for all stakeholders .
 ## Project Timeline
-
 Day	Programming Tasks	Status
 _________________________________________
 1 |	Data collection and cleaning | Done
 2 |	SQL query development |	Done
-3 |	KPI calculation |	Done
+3 |	Health Indicators calculation |	Done
 4	| Benchmark integration |	Done
 5	| Tableau dashboard creation |	In Progress
 6	| Report writing and packaging	| Not Started
-Program Design
-Functions and Classes Overview
-
+## Data Source 
+This data has been sourced from Kaggle 
 ## Data Storage
 CSV files for raw patient records.
-
 SQL database for country-level metrics.
-
 Tableau for interactive dashboards.
 
 
