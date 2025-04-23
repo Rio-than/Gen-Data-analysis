@@ -1,4 +1,4 @@
-### Lung Cancer Trends & Outcomes Dashboard
+# Lung Cancer Trends & Outcomes Dashboard
 
 
 Author: Nathan Rotich
