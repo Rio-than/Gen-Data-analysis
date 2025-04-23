@@ -35,13 +35,13 @@ Men: Surgery > Radiotherapy > Chemotherapy
 
 Women: Radiotherapy > Surgery > Chemotherapy
 
-# Geographical Prevalence:
+## Geographical Prevalence:
 
 Country with Highest Prevalence: Ethiopia
 
 Region with Highest Prevalence: South Asia
 
- Table of Contents
+ ## Table of Contents
 Project Description
 
 Target Audience
@@ -58,12 +58,12 @@ Contributing
 
 License
 
-# Acknowledgements
+## Acknowledgements
 
-  ## Project Description
+  ### Project Description
 The Lung Cancer Trends & Outcomes Dashboard aims to visualize critical metrics and trends in lung cancer diagnosis, treatment, and survival. By leveraging data analytics and visualization tools, the dashboard provides stakeholders with actionable insights to inform policy decisions, research directions, and clinical practices.
 
-  ## Target Audience
+  ### Target Audience
 This dashboard is designed for:
 
 Healthcare Professionals: To monitor patient outcomes, identify high-risk groups, and tailor treatment strategies.
@@ -129,7 +129,7 @@ Edit
 npm start
 Ensure you have Node.js and npm installed on your machine.
 
- # Usage
+ ## Usage
 After setting up:
 
 Access the dashboard at http://localhost:3000 in your web browser.
@@ -138,7 +138,7 @@ Navigate through different sections to explore various metrics and visualization
 
 Utilize filters and interactive elements to customize the data view.
 
-  # Contributing
+  ## Contributing
 Contributions are welcome! To contribute:
 
 Fork the Repository
@@ -165,10 +165,10 @@ Open a Pull Request
 
 Please ensure your code adheres to the project's coding standards and includes relevant tests.
 
-  # License
+  ## License
 This project is licensed under the MIT License.
 
- # Acknowledgements
+ ## Acknowledgements
 We extend our gratitude to the organizations and individuals who provided data and support:
 
 World Health Organization (WHO)
