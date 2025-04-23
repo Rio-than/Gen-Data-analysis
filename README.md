@@ -98,12 +98,12 @@ The tool can be extended with a Tkinter or Streamlit interface for local clinica
 
 Day	Programming Tasks	Status
 _________________________________________
-1	Data collection and cleaning | Done
-2	SQL query development |	Done
-3	KPI calculation |	Done
-4	Benchmark integration |	Done
-5	Tableau dashboard creation |	In Progress
-6	Report writing and packaging	| Not Started
+1 |	Data collection and cleaning | Done
+2 |	SQL query development |	Done
+3 |	KPI calculation |	Done
+4	| Benchmark integration |	Done
+5	| Tableau dashboard creation |	In Progress
+6	| Report writing and packaging	| Not Started
 Program Design
 Functions and Classes Overview
 
