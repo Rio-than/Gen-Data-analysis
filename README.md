@@ -1,12 +1,11 @@
 # Gen-Data-analysis
-###Lung Cancer Trends & Outcomes Dashboard
+### Lung Cancer Trends & Outcomes Dashboard
 
-Version: 1.0
-Last Updated: April 22, 2025
-Author: [Your Name]
-License: MIT
 
-  #Overview
+Author: Nathan Rotich
+
+
+  # Overview
 This interactive dashboard provides a comprehensive analysis of lung cancer trends and outcomes, focusing on:
 
 Average Survival Years Post-Diagnosis: 5.50 years
@@ -17,7 +16,7 @@ Early Detection Rate: 28.37%
 
 Gender Distribution: 50.06% male, 49.04% female
 
-Stage-wise Diagnosis Differences:
+# Stage-wise Diagnosis Differences:
 
 Stage 2: -0.73%
 
@@ -37,7 +36,7 @@ Men: Surgery > Radiotherapy > Chemotherapy
 
 Women: Radiotherapy > Surgery > Chemotherapy
 
-Geographical Prevalence:
+# Geographical Prevalence:
 
 Country with Highest Prevalence: Ethiopia
 
@@ -60,12 +59,12 @@ Contributing
 
 License
 
-Acknowledgements
+# Acknowledgements
 
-  Project Description
+  ## Project Description
 The Lung Cancer Trends & Outcomes Dashboard aims to visualize critical metrics and trends in lung cancer diagnosis, treatment, and survival. By leveraging data analytics and visualization tools, the dashboard provides stakeholders with actionable insights to inform policy decisions, research directions, and clinical practices.
 
-  Target Audience
+  ## Target Audience
 This dashboard is designed for:
 
 Healthcare Professionals: To monitor patient outcomes, identify high-risk groups, and tailor treatment strategies.
@@ -80,7 +79,7 @@ General Public: To increase awareness and understanding of lung cancer trends an
 
   Key Performance Indicators (KPIs)
 
-KPI	Value	Description
+## KPI	Value	Description
 Average Survival Years Post-Diagnosis	5.50 years	Indicates the mean survival duration after a lung cancer diagnosis.
 Lung Cancer Diagnosis Rate	4.06%	Represents the percentage of the population diagnosed with lung cancer.
 Early Detection Rate	28.37%	Percentage of lung cancer cases detected at an early stage.
@@ -89,7 +88,7 @@ Stage-wise Diagnosis Differences	Stage 2: -0.73%, Stage 3: -4.37%, Stage 4: +15.
 Smoking Population Insights	Higher diagnosis rates among smokers despite being a smaller population	Emphasizes the impact of smoking on lung cancer prevalence.
 Treatment Modalities by Gender	Men: Surgery > Radiotherapy > Chemotherapy; Women: Radiotherapy > Surgery > Chemotherapy	Details preferred treatment methods by gender.
 Geographical Prevalence	Ethiopia (Country), South Asia (Region)	Identifies areas with the highest lung cancer prevalence.
-  Data Sources
+  ## Data Sources
 The dashboard utilizes data from reputable sources, including:
 
 World Health Organization (WHO)
@@ -102,7 +101,7 @@ Kenya National Bureau of Statistics (KNBS)
 
 Note: Ensure to replace or supplement these with the actual data sources used in your analysis.
 
-  Installation & Setup
+  ## Installation & Setup
 To set up the dashboard locally:
 
 Clone the Repository:
@@ -131,7 +130,7 @@ Edit
 npm start
 Ensure you have Node.js and npm installed on your machine.
 
-  Usage
+ # Usage
 After setting up:
 
 Access the dashboard at http://localhost:3000 in your web browser.
@@ -140,7 +139,7 @@ Navigate through different sections to explore various metrics and visualization
 
 Utilize filters and interactive elements to customize the data view.
 
-  Contributing
+  # Contributing
 Contributions are welcome! To contribute:
 
 Fork the Repository
@@ -167,10 +166,10 @@ Open a Pull Request
 
 Please ensure your code adheres to the project's coding standards and includes relevant tests.
 
-  License
+  # License
 This project is licensed under the MIT License.
 
-  Acknowledgements
+ # Acknowledgements
 We extend our gratitude to the organizations and individuals who provided data and support:
 
 World Health Organization (WHO)
