@@ -1,6 +1,6 @@
 # Lung Cancer Surveillance and Outcomes Analysis Using Global Data for Local Insights
 
-Author: Nathan Rotich
+Author: **Nathan Rotich**
 
 ## Installation
 In the project directory, you can run:
@@ -8,13 +8,12 @@ In the project directory, you can run:
 bash
 Copy
 Edit
-git clone https://github.com/<YOUR-USERNAME>/lung-cancer-data-analysis.git
+git clone https://github.com/<YOUR-USERNAME>/Gen-Data-analysis.git
 cd lung-cancer-data-analysis
 ## For data exploration:
 
 Open the dataset CSV files using Excel 2021.
 
-Execute SQL queries using SQLite or MySQL.
 
 Open the Tableau dashboards (2025.1 version) for data visualization.
 
@@ -41,8 +40,6 @@ Analyzes treatment patterns (surgery vs. radiotherapy) across genders and region
 Excel 2021 for initial cleaning, parsing, and calculation.
 
 Tableau 2025.1 for creating powerful, interactive visual dashboards.
-
-VS Code as the primary coding environment.
 
 Git/GitHub for version control and collaboration.
 
@@ -79,7 +76,7 @@ Balancing technical complexity of Tableau visuals with accessibility for non-exp
 Raising stakeholder awareness on the importance of data-driven cancer program design.
 
 ## Accomplishments we're proud of
-Built a full-stack, modular analysis pipeline combining SQL, Excel, and Tableau.
+Built a  modular analysis pipeline combining  Excel, and Tableau.
 
 Designed intuitive visuals that can be understood by clinical and non-clinical users.
 
@@ -111,8 +108,6 @@ If you would like to contribute to this project, please first read the Code of C
 ### Pre-requisites
 Excel 2021
 
-SQL setup (MySQL/SQLite)
-
 Tableau 2025.1
 
 Git and GitHub account
@@ -125,7 +120,7 @@ Clone it locally:
 bash
 Copy
 Edit
-git clone https://github.com/<YOUR-USERNAME>/lung-cancer-data-analysis.git
+git clone https://github.com/<YOUR-USERNAME>/Gen-Data-analysis.git
 cd lung-cancer-data-analysis
 Create a new branch:
 
