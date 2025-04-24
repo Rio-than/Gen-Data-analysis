@@ -1,7 +1,7 @@
 # Lung Cancer Data Analysis and Screening Insights Tool
 
 ## Project Summary
-This project is a Python-based analytical tool that processes combined individual- and country-level lung cancer data. It uses tools like Excel, SQL, and Tableau to calculate health indicators such as survival years, diagnosis rates, detection stages, and treatment trends. The project highlights disparities in diagnosis and survival based on gender, age, region, and smoking status. The tool aims to support cancer care programs—especially in regions like western Kenya—by offering data-driven recommendations for early detection, targeted screening, and resource allocation.
+This is a Data analytics project that processes combined individual- and country-level lung cancer data. It uses tools like Excel, SQL, and Tableau to calculate health indicators such as survival years, diagnosis rates, detection stages, and treatment trends. The project highlights disparities in diagnosis and survival based on gender, age, region, and smoking status. The tool aims to support cancer care programs—especially in regions like western Kenya—by offering data-driven recommendations for early detection, targeted screening, and resource allocation.
 
 ## Problem Statement
 What problem will your Python project solve?
