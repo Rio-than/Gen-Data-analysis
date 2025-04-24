@@ -36,8 +36,6 @@ Data visualization using Tableau (external)
 
 Integration with SQL queries
 
-csv, json for file parsing
-
 ### Development Tools
 Editor: VS Code
 
@@ -95,7 +93,41 @@ I used Lung Cancer Risk  from 25 Countries dataset from Kaggle by Aiza Zeeshan.
 
 I used global data because  Kenya Cancer centers  lacks comprehensive cancer registries. Global datasets help fill critical gaps in epidemiological insights.
 
-Less cleaning was needed ,the dataset had no blank spaces and the population size was divided by a million to consistency in Scale for Visualization.
+Less cleaning was needed ,the dataset had no blank spaces and the population size was divided by a million for consistency in Scale for Visualization.
+### Data visualization
+Reasoning Behind Data Visualization Choices
+1. Average Survival Years, Diagnosis Rate, Early Detection Rate → Health Indicators
+Why: These are high-level summary metrics critical for tracking progress and setting targets in public health.
+
+Tool: Designed as health indicators (similar to KPIs in business) to quickly communicate performance and highlight gaps.
+
+2. Lung Cancer Prevalence by Gender → Vertical Bar Charts
+Why: Clearly compares prevalence rates between male and female groups.
+
+Tool: Vertical bar charts offer a simple, intuitive visual comparison of categorical data.
+
+3. Diagnosis Among Smokers vs Non-Smokers → Side-by-Side Vertical Bar Charts
+Why: Highlights contrast in lung cancer incidence between smoking statuses.
+
+Tool: Side-by-side bars allow for direct comparison within shared categories, improving clarity.
+
+4. Active Smokers Across Age Groups → Stacked Bar Charts
+Why: Shows distribution of smoking habits across age brackets while preserving total population structure.
+
+Tool: Stacked bars reveal both individual age group contributions and overall trends.
+
+5. Diagnosis Stage Deviation from Stage I → Horizontal Bar Charts
+Why: Illustrates how far other stages deviate from early detection baseline (Stage I).
+
+Tool: Horizontal bars make it easier to visualize positive/negative deviation side by side for emphasis.
+
+6. Prevalence by Country → Map Visualization
+Why: Communicates geographic disparities in lung cancer prevalence at a glance.
+
+Tool: Map views are ideal for representing spatial data, drawing attention to regional patterns and hotspots.
+
+
+
 
 
 ## Data Storage
@@ -132,14 +164,14 @@ Average survival years: 5 years & 6  months
 
 Early detection rate: 28%
 
-Stage IV excess: +15.5%
+Stage IV deviation from Satge I: +15.5%
 
 ## Recommendation:
 Expand LDCT screening and launch smoking cessation campaigns.
 
 Potential Challenges
 
-## Challenge	Solution
+## Challenge faced
 Fragmented data sources	Integrate datasets via a unified SQL schema
 
 Missing regional health data	Collaborate with AMPATH for local records
