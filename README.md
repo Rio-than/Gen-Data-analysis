@@ -49,30 +49,36 @@ Database: SQL (SQLite or MySQL)
 ## Program Structure
 ### Core Features
 1. Health Indicators Dashboard and Stratified Metrics
+   
 Calculates average survival years, early detection rate, and diagnosis stage.
 
 Stratifies data by gender, age, stage, smoking status, and region.
 
-3. Comparison with Global Benchmarks
+2. Comparison with Global Benchmarks
+   
 Uses GLOBOCAN (**Global Cancer Observatory**) , SEER (**Surveillance, Epidemiology, and End Results**), and peer-reviewed studies to compare national and local metrics.
 
-4. Risk Stratification and Screening Gap Analysis
+3. Risk Stratification and Screening Gap Analysis
+   
 Highlights differences in detection and diagnosis by smoking status and age group.
 
 Shows missed screening opportunities in high-risk groups (e.g., smokers aged 65–70).
 
-6. Treatment Pattern Analysis
+4. Treatment Pattern Analysis
+   
 Compares gender differences in treatment modalities (surgery vs. radiotherapy).
 
 Maps treatment choices across stages and regions.
 
-8. Regional Burden Mapping
+5. Regional Burden Mapping
+   
 Identifies hotspots like Ethiopia and South Asia as highest-burden areas.
 
 Offers insights for targeted interventions in similar regions like western Kenya.
 
 ## User Interface
 This is a non-GUI project only  focused on backend data analysis.
+
 However:
 Tableau dashboards provide a visual front-end for all stakeholders .
 ## Project Timeline
@@ -98,31 +104,37 @@ Less cleaning was needed ,the dataset had no blank spaces and the population siz
 ## Data visualization
 Reasoning Behind Data Visualization Choices
 1. Average Survival Years, Diagnosis Rate, Early Detection Rate → Health Indicators
+   
 Why: These are high-level summary metrics critical for tracking progress and setting targets in public health.
 
 Tool: Designed as health indicators (similar to KPIs in business) to quickly communicate performance and highlight gaps.
 
 2. Lung Cancer Prevalence by Gender → Vertical Bar Charts
+   
 Why: Clearly compares prevalence rates between male and female groups.
 
 Tool: Vertical bar charts offer a simple, intuitive visual comparison of categorical data.
 
 3. Diagnosis Among Smokers vs Non-Smokers → Side-by-Side Vertical Bar Charts
+   
 Why: Highlights contrast in lung cancer incidence between smoking statuses.
 
 Tool: Side-by-side bars allow for direct comparison within shared categories, improving clarity.
 
 4. Active Smokers Across Age Groups → Stacked Bar Charts
+   
 Why: Shows distribution of smoking habits across age brackets while preserving total population structure.
 
 Tool: Stacked bars reveal both individual age group contributions and overall trends.
 
 5. Diagnosis Stage Deviation from Stage I → Horizontal Bar Charts
+   
 Why: Illustrates how far other stages deviate from early detection baseline (Stage I).
 
 Tool: Horizontal bars make it easier to visualize positive/negative deviation side by side for emphasis.
 
 6. Prevalence by Country → Map Visualization
+   
 Why: Communicates geographic disparities in lung cancer prevalence at a glance.
 
 Tool: Map views are ideal for representing spatial data, drawing attention to regional patterns and hotspots.
@@ -139,6 +151,7 @@ Tableau for interactive dashboards.
 
 ### Testing Strategy
 Unit Testing:
+
 Verify correct diagnosis rate and survival year calculations.
 
 Ensure proper functioning of filtering by gender, stage, and region.
@@ -167,8 +180,6 @@ Stage IV deviation from Satge I: +15.5%
 
 ## Recommendation:
 Expand LDCT screening and launch smoking cessation campaigns.
-
-Potential Challenges
 
 ## Challenge faced
 Fragmented data sources	Integrate datasets via a unified SQL schema
