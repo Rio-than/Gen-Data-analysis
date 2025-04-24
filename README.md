@@ -18,8 +18,6 @@ Execute SQL queries using SQLite or MySQL.
 
 Open the Tableau dashboards (2025.1 version) for data visualization.
 
-📚 View the Backend Data Structure Documentation
-🎥 Watch the Demo Walkthrough Here
 ## Inspiration
 AMPATH and similar healthcare networks in Kenya face urgent challenges in early lung cancer detection, screening coordination, and treatment equity.
 This project seeks to close these gaps by analyzing global and individual-level data, offering actionable insights for targeted interventions—especially for underserved regions like western Kenya.
@@ -40,9 +38,7 @@ Identifies screening gaps among high-risk populations (e.g., older smokers).
 Analyzes treatment patterns (surgery vs. radiotherapy) across genders and regions.
 
 ## How we built it
-Excel 2021 for initial cleaning, parsing, and calculations.
-
-SQL (SQLite/MySQL) for data querying and stratified metric extraction.
+Excel 2021 for initial cleaning, parsing, and calculation.
 
 Tableau 2025.1 for creating powerful, interactive visual dashboards.
 
@@ -51,19 +47,15 @@ VS Code as the primary coding environment.
 Git/GitHub for version control and collaboration.
 
 ## Program Structure
-Core Features:
+Analytical Features:
 
 Health Indicators Dashboard
 
-Risk Stratification Module
-
 Treatment Trends Explorer
-
-Regional Burden Mapper
 
 Benchmark Comparison Charts
 
-Data Visualization Choices:
+### Data Visualization Choices:
 
 Health Indicators → Summary KPIs
 
