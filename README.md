@@ -1,205 +1,161 @@
-# Lung Cancer Data Analysis and Screening Insights Tool
-## Author : Nathan Rotich
+# Lung Cancer Surveillance and Outcomes Analysis Using Global Data for Local Insights
 
-## Project Summary
-This is a Data analytics project that processes combined individual- and country-level lung cancer data. It uses tools like Excel, SQL, and Tableau to calculate health indicators such as survival years, diagnosis rates, detection stages, and treatment trends. The project highlights disparities in diagnosis and survival based on gender, age, region, and smoking status. The tool aims to support cancer care programs—especially in regions like western Kenya—by offering data-driven recommendations for early detection, targeted screening, and resource allocation.
+Author: Nathan Rotich
 
-## Problem Statement
-### What problem will your  project solve?
+## Installation
+In the project directory, you can run:
 
-AMPATH, **(Academic Model Providing Access to Healthcare;it is a partnership between Moi University and Moi Teaching and Referral Hospital in Kenya and a consortium of North American academic health centers, led by Indiana University. AMPATH aims to deliver comprehensive healthcare services, conduct research, and provide training and capacity building, particularly in HIV/AIDS and chronic disease management across western Kenya.)** and similar health networks in Kenya face major challenges with late-stage lung cancer detection, lack of screening programs, poor data coordination, and unequal resource access. This project uses global benchmarking and granular and non-granular data analysis to identify gaps in early diagnosis and treatment and provides actionable insights to bridge them.
+bash
+Copy
+Edit
+git clone https://github.com/<YOUR-USERNAME>/lung-cancer-data-analysis.git
+cd lung-cancer-data-analysis
+## For data exploration:
 
-## Why is this solution needed?
-Supports AMPATH in building data-driven cancer registries.
-Helps health facilities identify high-risk populations for screening.
-Enables policymakers and donors to visualize gaps in early-stage detection and survival.
-Promotes better resource deployment in underserved areas like rural western Kenya.
+Open the dataset CSV files using Excel 2021.
 
-## Who will use this program?
-Public health researchers and analysts
-Cancer care program managers (e.g., AMPATH)
-Oncologists and radiologists
-Policy-makers in health ministries
-Global health funders and donors
+Execute SQL queries using SQLite or MySQL.
 
-## Technical Details
-Excel 2021 version
+Open the Tableau dashboards (2025.1 version) for data visualization.
+
+📚 View the Backend Data Structure Documentation
+🎥 Watch the Demo Walkthrough Here
+## Inspiration
+AMPATH and similar healthcare networks in Kenya face urgent challenges in early lung cancer detection, screening coordination, and treatment equity.
+This project seeks to close these gaps by analyzing global and individual-level data, offering actionable insights for targeted interventions—especially for underserved regions like western Kenya.
+
+We wanted to create a backend-focused, data-driven tool that supports clinicians, researchers, and policy-makers with stratified metrics, survival analysis, and resource prioritization recommendations.
+
+## What it does
+Calculates health indicators: average survival years, diagnosis rates, early detection rates.
+
+Stratifies outcomes by gender, smoking status, region, and age groups.
+
+Compares Kenya-specific data with global benchmarks (GLOBOCAN (**Global Cancer Observatory**), SEER(**Surveillance, Epidemiology, and End Results.**).
+
+Maps regional lung cancer burdens for resource allocation insights.
+
+Identifies screening gaps among high-risk populations (e.g., older smokers).
+
+Analyzes treatment patterns (surgery vs. radiotherapy) across genders and regions.
+
+## How we built it
+Excel 2021 for initial cleaning, parsing, and calculations.
+
+SQL (SQLite/MySQL) for data querying and stratified metric extraction.
+
+Tableau 2025.1 for creating powerful, interactive visual dashboards.
+
+VS Code as the primary coding environment.
+
+Git/GitHub for version control and collaboration.
+
+## Program Structure
+Core Features:
+
+Health Indicators Dashboard
+
+Risk Stratification Module
+
+Treatment Trends Explorer
+
+Regional Burden Mapper
+
+Benchmark Comparison Charts
+
+Data Visualization Choices:
+
+Health Indicators → Summary KPIs
+
+Gender Prevalence → Vertical Bar Charts
+
+Smokers vs Non-Smokers Diagnosis → Side-by-Side Bars
+
+Smoking Habits by Age → Stacked Bar Charts
+
+Diagnosis Stage Deviations → Horizontal Bars
+
+Regional Prevalence → Interactive Maps
+
+## Challenges we ran into
+Fragmented global vs. regional data integration.
+
+Limited local lung cancer registry data for Kenya.
+
+Balancing technical complexity of Tableau visuals with accessibility for non-experts.
+
+Raising stakeholder awareness on the importance of data-driven cancer program design.
+
+## Accomplishments we're proud of
+Built a full-stack, modular analysis pipeline combining SQL, Excel, and Tableau.
+
+Designed intuitive visuals that can be understood by clinical and non-clinical users.
+
+Highlighted specific gaps in Kenya’s lung cancer early detection efforts with actionable suggestions.
+
+## What we learned
+Advanced data cleaning and normalization techniques.
+
+Stratified health data modeling for public health use cases.
+
+How to integrate global benchmarks into local analyses.
+
+Using Tableau to simplify complex, multi-dimensional data for strategic decision-making.
+
+## What's next
+Real-Time Registry: Integrate OpenMRS for automatic updates.
+
+Mobile/Tableau Mobile Dashboards: Enhance accessibility across devices.
+
+Policy Toolkit Generator: Auto-create county-level policy briefs.
+
+Predictive Modeling: Forecast trends using machine learning.
+
+Global Comparative Analysis: Expand across Sub-Saharan datasets.
+
+## Want to contribute?
+If you would like to contribute to this project, please first read the Code of Conduct and Contributing Guidelines.
+
+### Pre-requisites
+Excel 2021
+
+SQL setup (MySQL/SQLite)
 
 Tableau 2025.1
 
-## Core Concepts Used:
+Git and GitHub account
 
-File handling and data parsing
+### Project setup & contribution steps
+Fork the project on GitHub.
 
-Basic statistical operations
+Clone it locally:
 
-Data visualization using Tableau (external)
+bash
+Copy
+Edit
+git clone https://github.com/<YOUR-USERNAME>/lung-cancer-data-analysis.git
+cd lung-cancer-data-analysis
+Create a new branch:
 
-Integration with SQL queries
+bash
+Copy
+Edit
+git checkout -b fix-issue-<ISSUE-NUMBER>
+Make your changes in:
 
-### Development Tools
-Editor: VS Code
+SQL queries
 
-Version Control: Git/GitHub
+Excel processing files
 
-Visualization: Tableau
+Tableau dashboard (.twbx files)
 
-Database: SQL (SQLite or MySQL)
+Commit and push:
 
-## Program Structure
-### Core Features
-1. Health Indicators Dashboard and Stratified Metrics
-   
-Calculates average survival years, early detection rate, and diagnosis stage.
-
-Stratifies data by gender, age, stage, smoking status, and region.
-
-2. Comparison with Global Benchmarks
-   
-Uses GLOBOCAN (**Global Cancer Observatory**) , SEER (**Surveillance, Epidemiology, and End Results**), and peer-reviewed studies to compare national and local metrics.
-
-3. Risk Stratification and Screening Gap Analysis
-   
-Highlights differences in detection and diagnosis by smoking status and age group.
-
-Shows missed screening opportunities in high-risk groups (e.g., smokers aged 65–70).
-
-4. Treatment Pattern Analysis
-   
-Compares gender differences in treatment modalities (surgery vs. radiotherapy).
-
-Maps treatment choices across stages and regions.
-
-5. Regional Burden Mapping
-   
-Identifies hotspots like Ethiopia and South Asia as highest-burden areas.
-
-Offers insights for targeted interventions in similar regions like western Kenya.
-
-## User Interface
-This is a non-GUI project only  focused on backend data analysis.
-
-However:
-Tableau dashboards provide a visual front-end for all stakeholders .
-## Project Timeline
-Day	Programming Tasks	Status
-_________________________________________
-1 |	Data collection and cleaning | Done
-
-2 |	SQL query development |	Done
-
-3 |	Health Indicators calculation |	Done
-
-4	| Benchmark integration |	Done
-
-5	| Tableau dashboard creation |	In Progress
-
-6	| Report writing and packaging	| Not Started
-## Data Source 
-I used Lung Cancer Risk  from 25 Countries dataset from Kaggle by Aiza Zeeshan.
-
-I used global data because  Kenya Cancer centers  lacks comprehensive cancer registries. Global datasets help fill critical gaps in epidemiological insights.
-
-Less cleaning was needed ,the dataset had no blank spaces and the population size was divided by a million for consistency in Scale for Visualization.
-## Data visualization
-Reasoning Behind Data Visualization Choices
-1. Average Survival Years, Diagnosis Rate, Early Detection Rate → Health Indicators
-   
-Why: These are high-level summary metrics critical for tracking progress and setting targets in public health.
-
-Tool: Designed as health indicators (similar to KPIs in business) to quickly communicate performance and highlight gaps.
-
-2. Lung Cancer Prevalence by Gender → Vertical Bar Charts
-   
-Why: Clearly compares prevalence rates between male and female groups.
-
-Tool: Vertical bar charts offer a simple, intuitive visual comparison of categorical data.
-
-3. Diagnosis Among Smokers vs Non-Smokers → Side-by-Side Vertical Bar Charts
-   
-Why: Highlights contrast in lung cancer incidence between smoking statuses.
-
-Tool: Side-by-side bars allow for direct comparison within shared categories, improving clarity.
-
-4. Active Smokers Across Age Groups → Stacked Bar Charts
-   
-Why: Shows distribution of smoking habits across age brackets while preserving total population structure.
-
-Tool: Stacked bars reveal both individual age group contributions and overall trends.
-
-5. Diagnosis Stage Deviation from Stage I → Horizontal Bar Charts
-   
-Why: Illustrates how far other stages deviate from early detection baseline (Stage I).
-
-Tool: Horizontal bars make it easier to visualize positive/negative deviation side by side for emphasis.
-
-6. Prevalence by Country → Map Visualization
-   
-Why: Communicates geographic disparities in lung cancer prevalence at a glance.
-
-Tool: Map views are ideal for representing spatial data, drawing attention to regional patterns and hotspots.
-
-
-
-
-
-## Data Storage
-CSV files for raw patient records.
-
-Tableau for interactive dashboards.
-
-
-### Testing Strategy
-Unit Testing:
-
-Verify correct diagnosis rate and survival year calculations.
-
-Ensure proper functioning of filtering by gender, stage, and region.
-
-### User Testing:
-Use test cohorts from AMPATH data to simulate regional and demographic outputs.
-
-Review outputs with domain experts for clinical relevance.
-
-### Sample Usage
-Input Scenario:
-
-Smoking status: Ever-smoker
-
-Age: 68
-
-Region: Western Kenya
-
-Expected Output:
-
-Average survival years: 5 years & 6  months
-
-Early detection rate: 28%
-
-Stage IV deviation from Satge I: +15.5%
-
-## Recommendation:
-Expand LDCT screening and launch smoking cessation campaigns.
-
-## Challenge faced
-Fragmented data sources	Integrate datasets via a unified SQL schema
-
-Missing regional health data	Collaborate with AMPATH for local records
-
-Complex visualizations in Tableau	Create simplified views for non-technical users
-
-Limited stakeholder awareness	Integrate insights into AMPATH Oncology ECHO
-
-## Future Improvements
-Real-Time Registry: Integrate with OpenMRS for live data updates.
-
-Mobile Dashboards: Convert visual outputs into mobile/tablet formats.
-
-Policy Toolkit: Auto-generate reports for counties and ministries.
-
-Predictive Modeling: Add machine learning to forecast case trends.
-
-Global Integration: Compare trends across Sub-Saharan countries.
-
-
-
+bash
+Copy
+Edit
+git status  
+git add .  
+git commit -m "feat/data-analysis:  Added risk stratification by smoking status"
+git push origin fix-issue-<ISSUE-NUMBER>
+Submit a pull request!
